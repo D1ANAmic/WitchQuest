@@ -1,0 +1,52 @@
+{
+    "anims": [
+        {
+            "key": "witch_walk",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "witch",
+                    "frame": "witch_walk1"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_walk2"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_walk3"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_walk4"
+                }
+            ]
+        },
+        {
+            "key": "witch_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "witch",
+                    "frame": "witch_idle1"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_idle2"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_idle3"
+                },
+                {
+                    "key": "witch",
+                    "frame": "witch_idle4"
+                }
+            ]
+        }
+    ]
+}

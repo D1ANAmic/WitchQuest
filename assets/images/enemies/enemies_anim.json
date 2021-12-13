@@ -1,0 +1,68 @@
+{
+    "anims": [
+        {
+            "key": "skeleton",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "skeleton1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "skeleton2"
+                }
+            ]
+        },
+        {
+            "key": "goblin",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "goblin1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "goblin2"
+                }
+            ]
+        },
+        {
+            "key": "bear",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "bear1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "bear2"
+                }
+            ]
+        },
+        {
+            "key": "ghost",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "ghost1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "ghost2"
+                }
+            ]
+        }
+    ]
+}
