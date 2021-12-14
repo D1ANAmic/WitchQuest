@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "bear1",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bear2",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 66,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ghost1",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 1,
+                "y": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ghost2",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 66,
+                "y": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "goblin1",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 131,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "goblin2",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 131,
+                "y": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "skeleton1",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 1,
+                "y": 131
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "skeleton2",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 66,
+                "y": 131
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

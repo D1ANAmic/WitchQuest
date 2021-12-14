@@ -12,23 +12,23 @@ import MainScene from "./MainScene.js";
 /// <reference path="defs/SpinePlugin.d.ts" />
 
 const config = {
-    width:2048,
-    height:2048,
+    width:1280,
+    height:896,
     backgroundColor: '#bbb',
     type: Phaser.AUTO,
     // sepecify id of div
     parent: 'witch-quest',
     scene:[MainScene],
     // scale game container
-    scale:{
-        // zoom:.8,
-    },
+    // scale:{
+        // zoom:.7,
+    // },
     physics: {
         // use Matter.js Physics engine instead of default
         default: 'matter',
         matter: {
-            debug:true,
-            // no gravity due to top down game not platformer
+            debug:false,
+            // zero gravity due to top down game not platformer
             gravity:{y:0},
         }
     },
