@@ -1,6 +1,5 @@
 import MainScene from "./MainScene.js";
 
-
 /// <reference path="defs/phaser.d.ts" />
 /// <reference path="defs/matter.d.ts" />
 /// <reference path="defs/spine.d.ts" />
@@ -16,7 +15,7 @@ const config = {
     height:896,
     backgroundColor: '#bbb',
     type: Phaser.AUTO,
-    // sepecify id of div
+    // id of parent div
     parent: 'witch-quest',
     scene:[MainScene],
     // scale game container

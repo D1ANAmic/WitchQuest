@@ -1,16 +1,21 @@
-
 import Player from "./Player.js";
 import Enemy from "./Enemy.js";
 
-
+/**
+ * class for main game scene
+ */
 export default class MainScene extends Phaser.Scene {
     constructor() {
         super("MainScene");
         this.enemies = [];
     }
 
+    /**
+     * Phaser class for preloading game assets
+     */
     preload() {
 
+        // load map and tileset, map was created in Tiled
         this.load.image('tiles', 'assets/images/tiles-64_edited_extruded.png');
         this.load.tilemapTiledJSON('map', 'assets/images/doodlemap2.json');
 
@@ -18,44 +23,45 @@ export default class MainScene extends Phaser.Scene {
         Player.loadAssets(this);
         Enemy.loadAssets(this);
 
-
     }
 
+    /**
+     * Phaser class for creating game elements
+     */
     create(){
 
-        const map = this.make.tilemap({key: 'map'});
-        this.map = map;
-        //tileMargin and tileSpacing values set due to the extruded tile image
-        const tileset = map.addTilesetImage('tiles-64_edited', 'tiles', 64, 64, 1, 2)
-        const tileset_offset = map.addTilesetImage('tiles-64_edited-offset', 'tiles', 64, 64, 1, 2)
-        const collider_layer = map.createLayer('Colliders', tileset, 0, 0);
-        const ground1_layer = map.createLayer('Ground1', tileset, 0, 0);
-        const edges1_layer = map.createLayer('Edges1', tileset_offset, 32, 32);
-        const edges2_layer = map.createLayer('Edges2', tileset_offset, 32, 32);
-        const decoration_layer = map.createLayer('Decoration', tileset, 0, 0);
-        // const object_layer = this.map.getObjectLayer('Resources');
+        //create map
+        this.map = this.make.tilemap({key: 'map'});
 
-        console.log(map.heightInPixels);
-        console.log(map.widthInPixels);
+        //tileMargin and tileSpacing values set due to extruded tile image
+        const tileset = this.map.addTilesetImage('tiles-64_edited', 'tiles', 64, 64, 1, 2)
+        const tileset_offset = this.map.addTilesetImage('tiles-64_edited-offset', 'tiles', 64, 64, 1, 2)
+
+        //create map layers
+        const collider_layer = this.map.createLayer('Colliders', tileset, 0, 0);
+        const ground_layer = this.map.createLayer('Ground', tileset, 0, 0);
+        // edges layers with tileset offset to create a smooth transition between map structures
+        const edges1_layer = this.map.createLayer('Edges1', tileset_offset, 32, 32);
+        const edges2_layer = this.map.createLayer('Edges2', tileset_offset, 32, 32);
+        const decoration_layer = this.map.createLayer('Decoration', tileset, 0, 0);
+
 
         //set map colliders based on property in map.json
         collider_layer.setCollisionByProperty({collides:true});
         this.matter.world.convertTilemapLayer(collider_layer);
 
-
         //set colliders for trees and rocks
         decoration_layer.setCollisionByProperty({collides:true});
         this.matter.world.convertTilemapLayer(decoration_layer);
 
-        //create enemies
-
+        //create enemies based on layer and push them into array
         const enemies = this.map.getObjectLayer('Enemies');
         enemies.objects.forEach(enemy => this.enemies.push(new Enemy({scene:this, enemy})));
 
+        //create player character
         this.player = new Player({scene:this, x:200, y:200, texture:'witch', frame:'witch_idle1'});
-        // place player in front of weapon
-        this.player.setDepth(1);
-        // this.add.existing(this.player);
+
+        // define player control keys
         this.player.inputKeys = this.input.keyboard.addKeys({
             up: Phaser.Input.Keyboard.KeyCodes.UP,
             down: Phaser.Input.Keyboard.KeyCodes.DOWN,
@@ -64,24 +70,25 @@ export default class MainScene extends Phaser.Scene {
             attack: Phaser.Input.Keyboard.KeyCodes.SPACE
         })
 
-
-
         //add camera
         let camera = this.cameras.main;
+        // zoom in
         camera.zoom = 1.5;
         camera.startFollow(this.player);
+        // set latency to camera movement for more realistic effect
         camera.setLerp(.1, .1);
-        //avoid camera following on edges
+        //avoid camera following player on map borders
         camera.setBounds(0,0, this.game.config.width, this.game.config.height)
-
-
 
     }
 
+    /**
+     * Phaser class for updating scene, gets called in a loop
+     */
     update(){
 
-        this.enemies.forEach(enemy => enemy.update());
         this.player.update();
+        this.enemies.forEach(enemy => enemy.update());
     }
 
 }
