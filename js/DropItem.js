@@ -3,9 +3,13 @@
  */
 export default class DropItem extends Phaser.Physics.Matter.Sprite {
 
-    constructor({scene, x, y, frame}) {
+    constructor({scene, x, y, frame, scoreLabel, dropItemScore}) {
 
         super(scene.matter.world, x, y, 'items', frame);
+
+        // add label and points for each dropItem that is added to score on pickup
+        this.scoreLabel = scoreLabel;
+        this.dropItemScore = dropItemScore;
 
         // scale items down
         this.setScale(.8);
@@ -29,6 +33,7 @@ export default class DropItem extends Phaser.Physics.Matter.Sprite {
     pickup = () => {
         this.destroy();
         this.sound.play();
+        this.scoreLabel.add(this.dropItemScore);
         return true;
     }
 }

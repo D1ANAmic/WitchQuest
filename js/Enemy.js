@@ -16,7 +16,7 @@ export default class Enemy extends Sprite{
         scene.load.audio('pickup', 'assets/audio/pickup.mp3');
     }
 
-    constructor({scene, enemy}) {
+    constructor({scene, enemy, scoreLabel}) {
 
         //get drop items based on enemy object properties
         let drops = JSON.parse(enemy.properties.find(p=>p.name=='drops').value);
@@ -25,6 +25,8 @@ export default class Enemy extends Sprite{
         let health = enemy.properties.find(p=>p.name=='health').value;
 
         super({scene, x:enemy.x,y:enemy.y, texture:'enemies', frame:`${enemy.name}1`,drops, health, name:enemy.name});
+
+        this.scoreLabel = scoreLabel;
 
         // create enemy radar
         const {Body, Bodies} = Phaser.Physics.Matter.Matter;

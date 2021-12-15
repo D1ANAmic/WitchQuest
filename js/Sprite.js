@@ -1,11 +1,12 @@
 import DropItem from "./DropItem.js";
+import Player from "./Player.js";
 
 /**
  * parent class for all game sprites
  */
 export default class Sprite extends Phaser.Physics.Matter.Sprite{
 
-    constructor({name, scene, x, y, health, drops, texture, frame, depth}){
+    constructor({name, scene, x, y, health, drops, texture, frame, depth, scoreLabel, healthLabel}){
 
         super(scene.matter.world, x, y, texture, frame);
         // additional position adjustments
@@ -15,6 +16,15 @@ export default class Sprite extends Phaser.Physics.Matter.Sprite{
         this.depth = depth || 1;
         this.health = health;
         this.drops = drops;
+
+        // add scoreLabel to add points
+        this.scoreLabel = scoreLabel;
+
+        // assign points for each enemy's dropItem based on enemy's health points
+        this.dropItemScore = health;
+
+        this.healthLabel = healthLabel;
+
 
         //vector for position (with underscore for private property -> use getter)
         this.spritePosition = new Phaser.Math.Vector2(this.x, this.y);
@@ -45,6 +55,7 @@ export default class Sprite extends Phaser.Physics.Matter.Sprite{
     // function definition for the inheriting objects
     onDeath = () =>{};
 
+
     /**
      * gets called everytime a sprite gets hit
      */
@@ -54,6 +65,9 @@ export default class Sprite extends Phaser.Physics.Matter.Sprite{
         // decrease sprite's health
         this.health--;
         console.log(`Hitting:${this.name} Health:${this.health}`);
+        if(this instanceof Player){
+            this.healthLabel.setHealth(this.health);
+        }
         if(this.dead){
             // call onDeath if it's defined for sprite (e.g. player)
             this.onDeath();
@@ -61,7 +75,7 @@ export default class Sprite extends Phaser.Physics.Matter.Sprite{
             this.drops.forEach((drop, index) => {
                 // position drop items apart from each other
                 const distance = (index === 0? 0 :10);
-                new DropItem({scene:this.scene, x:this.x+distance, y:this.y, frame:drop})
+                new DropItem({scene:this.scene, x:this.x+distance, y:this.y, frame:drop, scoreLabel:this.scoreLabel, dropItemScore:this.dropItemScore})
             });
         }
     }

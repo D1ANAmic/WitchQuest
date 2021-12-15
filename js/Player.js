@@ -1,4 +1,5 @@
 import Sprite from "./Sprite.js";
+import HealthLabel from "./HealthLabel.js";
 
 /**
  * player character class
@@ -24,12 +25,18 @@ export default class Player extends Sprite {
         scene.load.audio('player', 'assets/audio/witch.mp3');
     }
 
-    constructor({scene, x, y, texture, frame}) {
+    constructor({scene, x, y, texture, frame, healthLabel}) {
 
-        super({scene, x, y, texture, frame, health:10, drops:[], name:'player'});
+        const startHealth = 10;
+
+        super({scene, x, y, texture, frame, health:startHealth, drops:[], name:'player', healthLabel});
 
         // array to collect all other objects that player touches
         this.touching = [];
+
+        // health label for player
+        this.healthLabel = healthLabel;
+        this.healthLabel.setHealth(startHealth);
 
         //create weapon based on spritesheet
         this.spriteWeapon = new Phaser.GameObjects.Sprite(this.scene, 0, 0, 'items', 43);

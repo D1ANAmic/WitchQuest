@@ -1,5 +1,7 @@
 import Player from "./Player.js";
 import Enemy from "./Enemy.js";
+import ScoreLabel from "./ScoreLabel.js";
+import HealthLabel from "./HealthLabel.js";
 
 /**
  * class for main game scene
@@ -46,6 +48,27 @@ export default class MainScene extends Phaser.Scene {
         const decoration_layer = this.map.createLayer('Decoration', tileset, 0, 0);
 
 
+        const style = { fontSize: '32px', fill: '#fff' }
+        //create scoreLabel
+        this.scoreLabel = new ScoreLabel(this, 220, 160, 0, style)
+        //add the lable into scene
+        this.add.existing(this.scoreLabel);
+
+        // fix label to camera view
+        this.scoreLabel.setScrollFactor(0);
+        // display score in front of everything
+        this.scoreLabel.setDepth(10);
+
+        //create healthLabel
+        this.healthLabel = new HealthLabel(this, 800, 160, 0, style)
+        this.add.existing(this.healthLabel);
+
+        // fix label to camera view
+        this.healthLabel.setScrollFactor(0);
+        // display score in front of everything
+        this.healthLabel.setDepth(10);
+
+
         //set map colliders based on property in map.json
         collider_layer.setCollisionByProperty({collides:true});
         this.matter.world.convertTilemapLayer(collider_layer);
@@ -56,10 +79,10 @@ export default class MainScene extends Phaser.Scene {
 
         //create enemies based on layer and push them into array
         const enemies = this.map.getObjectLayer('Enemies');
-        enemies.objects.forEach(enemy => this.enemies.push(new Enemy({scene:this, enemy})));
+        enemies.objects.forEach(enemy => this.enemies.push(new Enemy({scene:this, enemy, scoreLabel:this.scoreLabel})));
 
         //create player character
-        this.player = new Player({scene:this, x:200, y:200, texture:'witch', frame:'witch_idle1'});
+        this.player = new Player({scene:this, x:200, y:200, texture:'witch', frame:'witch_idle1', healthLabel:this.healthLabel});
 
         // define player control keys
         this.player.inputKeys = this.input.keyboard.addKeys({
@@ -82,6 +105,16 @@ export default class MainScene extends Phaser.Scene {
 
     }
 
+    createScoreLabel(x, y, score)
+    {
+        const style = { fontSize: '32px', fill: '#fff' }
+        const label = new ScoreLabel(this, x, y, score, style)
+        //add the lable into scene
+        this.add.existing(label)
+
+        return label
+    }
+
     /**
      * Phaser class for updating scene, gets called in a loop
      */
@@ -89,6 +122,7 @@ export default class MainScene extends Phaser.Scene {
 
         this.player.update();
         this.enemies.forEach(enemy => enemy.update());
+
     }
 
 }
