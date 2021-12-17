@@ -56,11 +56,11 @@ export default class Enemy extends Sprite{
         this.scene.matterCollision.addOnCollideStart({
             objectA:[enemySensor],
             callback: other => {
-                console.log("gameObjectB: ", other.gameObjectB.name);
+                // console.log("gameObjectB: ", other.gameObjectB.name);
                 if(other.gameObjectB && other.gameObjectB.name === 'player'){
 
                     this.attacking = other.gameObjectB;
-                    console.log("this.attacking: ", this.attacking);
+                    // console.log("this.attacking: ", this.attacking.name);
                 }},
             context:this.scene,
         });

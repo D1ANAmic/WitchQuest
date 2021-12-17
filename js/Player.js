@@ -83,6 +83,7 @@ export default class Player extends Sprite {
         this.setTexture('items', 7);
         // remove weapon
         this.spriteWeapon.destroy();
+        this.scene.scene.switch('GameOverScene');
     };
 
     update(){
