@@ -27,7 +27,7 @@
             }
         },
         {
-            "filename": "ghost1",
+            "filename": "devil1",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -40,7 +40,7 @@
             }
         },
         {
-            "filename": "ghost2",
+            "filename": "devil2",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -53,7 +53,7 @@
             }
         },
         {
-            "filename": "goblin1",
+            "filename": "ghost1",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "filename": "goblin2",
+            "filename": "ghost2",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "filename": "skeleton1",
+            "filename": "goblin1",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -92,12 +92,38 @@
             }
         },
         {
-            "filename": "skeleton2",
+            "filename": "goblin2",
             "frame": {
                 "w": 64,
                 "h": 64,
                 "x": 66,
                 "y": 131
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "skeleton1",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 131,
+                "y": 131
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "skeleton2",
+            "frame": {
+                "w": 64,
+                "h": 64,
+                "x": 196,
+                "y": 1
             },
             "anchor": {
                 "x": 0.5,

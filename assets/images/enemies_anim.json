@@ -33,22 +33,6 @@
             ]
         },
         {
-            "key": "bear",
-            "type": "frames",
-            "repeat": -1,
-            "frameRate": 6,
-            "frames": [
-                {
-                    "key": "enemies",
-                    "frame": "bear1"
-                },
-                {
-                    "key": "enemies",
-                    "frame": "bear2"
-                }
-            ]
-        },
-        {
             "key": "ghost",
             "type": "frames",
             "repeat": -1,
@@ -61,6 +45,38 @@
                 {
                     "key": "enemies",
                     "frame": "ghost2"
+                }
+            ]
+        },
+        {
+            "key": "devil",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "devil1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "devil2"
+                }
+            ]
+        },
+        {
+            "key": "bear",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "enemies",
+                    "frame": "bear1"
+                },
+                {
+                    "key": "enemies",
+                    "frame": "bear2"
                 }
             ]
         }

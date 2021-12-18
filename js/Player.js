@@ -174,7 +174,7 @@ export default class Player extends Sprite {
                 // if sensor is not collider, nothing happens
                 if(other.bodyB.isSensor) return;
                 this.touching.push(other.gameObjectB);
-                console.log(this.touching.length, other.gameObjectB.name);
+                // console.log(this.touching.length, other.gameObjectB.name);
             },
             context: this.scene,
         });

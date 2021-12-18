@@ -1,4 +1,5 @@
 import Button from "./Button.js"
+import MainScene from "./MainScene.js";
 
 /**
  * class for start screen
@@ -48,6 +49,7 @@ export default class GameOverSceneScene extends Phaser.Scene {
 
         // restart MainScene
         mainScene.scene.restart();
+        MainScene.resetGame();
 
         // switch back to startScene and then MainScene
         this.scene.switch(startScene);

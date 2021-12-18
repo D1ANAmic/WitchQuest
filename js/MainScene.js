@@ -3,6 +3,10 @@ import Enemy from "./Enemy.js";
 import ScoreLabel from "./ScoreLabel.js";
 import HealthLabel from "./HealthLabel.js";
 
+
+let score = 0;
+let level = 3;
+
 /**
  * class for main game scene
  */
@@ -19,11 +23,18 @@ export default class MainScene extends Phaser.Scene {
 
         // load map and tileset, map was created in Tiled
         this.load.image('tiles', 'assets/images/tiles-64_edited_extruded.png');
-        this.load.tilemapTiledJSON('map', 'assets/images/doodlemap2.json');
+        this.load.tilemapTiledJSON('level1', 'assets/images/level1.json');
+        this.load.tilemapTiledJSON('level2', 'assets/images/level2.json');
+        this.load.tilemapTiledJSON('level3', 'assets/images/level3.json');
 
         //call static loadAssets methods in objects and pass the scene
         Player.loadAssets(this);
         Enemy.loadAssets(this);
+
+    }
+
+
+    getLevelAssets(){
 
     }
 
@@ -33,7 +44,7 @@ export default class MainScene extends Phaser.Scene {
     create(){
 
         //create map
-        this.map = this.make.tilemap({key: 'map'});
+        this.map = this.make.tilemap({key: `level${level}`});
 
         //tileMargin and tileSpacing values set due to extruded tile image
         const tileset = this.map.addTilesetImage('tiles-64_edited', 'tiles', 64, 64, 1, 2)
@@ -50,7 +61,7 @@ export default class MainScene extends Phaser.Scene {
 
         const style = { fontSize: '32px', fill: '#fff' }
         //create scoreLabel
-        this.scoreLabel = new ScoreLabel(this, 220, 160, 0, style)
+        this.scoreLabel = new ScoreLabel(this, 220, 160, score, style)
         //add the lable into scene
         this.add.existing(this.scoreLabel);
 
@@ -105,15 +116,6 @@ export default class MainScene extends Phaser.Scene {
 
     }
 
-    createScoreLabel(x, y, score)
-    {
-        const style = { fontSize: '32px', fill: '#fff' }
-        const label = new ScoreLabel(this, x, y, score, style)
-        //add the lable into scene
-        this.add.existing(label)
-
-        return label
-    }
 
     /**
      * Phaser class for updating scene, gets called in a loop
@@ -123,6 +125,32 @@ export default class MainScene extends Phaser.Scene {
         this.player.update();
         this.enemies.forEach(enemy => enemy.update());
 
+        if (this.allEnemiesDead()){
+
+
+            if (level === 3){
+                MainScene.resetGame();
+                this.scene.switch('FinishScene');
+            }
+            this.scene.restart(this.scoreLabel.score);
+            score = this.scoreLabel.score
+            level ++;
+
+        };
+
     }
+
+    allEnemiesDead(){
+        const allEnemiesDead = (currentValue) => !currentValue.active;
+
+        return this.enemies.every(allEnemiesDead);
+
+    }
+
+    static resetGame(){
+        score = 0;
+        level = 1;
+    }
+
 
 }

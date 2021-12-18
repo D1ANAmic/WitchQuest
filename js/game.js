@@ -1,6 +1,7 @@
 import MainScene from "./MainScene.js";
 import StartScene from "./StartScene.js";
 import GameOverScene from "./GameOverScene.js";
+import FinishScene from "./FinishScene.js";
 
 /// <reference path="defs/phaser.d.ts" />
 /// <reference path="defs/matter.d.ts" />
@@ -19,7 +20,7 @@ const config = {
     type: Phaser.AUTO,
     // id of parent div
     parent: 'witch-quest',
-    scene:[StartScene, MainScene, GameOverScene],
+    scene:[StartScene, MainScene, GameOverScene, FinishScene],
     // scale game container
     // scale:{
         // zoom:.7,

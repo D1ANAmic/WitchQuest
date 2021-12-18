@@ -13,6 +13,7 @@ export default class Enemy extends Sprite{
         scene.load.audio('goblin', 'assets/audio/goblin.mp3');
         scene.load.audio('skeleton', 'assets/audio/skeleton.mp3');
         scene.load.audio('ghost', 'assets/audio/ghost.mp3');
+        scene.load.audio('devil', 'assets/audio/devil.mp3');
         scene.load.audio('pickup', 'assets/audio/pickup.mp3');
     }
 
