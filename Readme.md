@@ -1,6 +1,6 @@
 # WitchQuest
 
-A simple single player game based on Phaser 3.
+A simple single player game for desktop based on Phaser 3.
 
 ## Setup
 
