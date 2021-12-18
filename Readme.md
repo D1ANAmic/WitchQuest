@@ -1,12 +1,12 @@
-#WitchQuest
+# WitchQuest
 
 A simple single player game based on Phaser 3.
 
-##Setup
+## Setup
 
 Clone or download the repository. A local web server is required in order to run the game (https://phaser.io/tutorials/getting-started-phaser3/index). It is also possible to start the application directly from an IDE with a built-in web server (e.g. WebStorm). 
 
-##Architecture and Resources
+## Architecture and Resources
 
 This game uses the Matter.js Physics engine with the Phaser Matter Collision Plugin (https://github.com/mikewesthad/phaser-matter-collision-plugin) for a more realistic collision behavior.
 
@@ -14,7 +14,7 @@ All level scenes are based on tilemaps, created with the Tiled editor(https://ww
 
 PC and NPCs are rendered through sprite atlases and animated using corresponding animation notations.
 
-##Gameplay
+## Gameplay
 
 The objective of the game is to kill all enemies. Each enemy comes with a different health score and drops items which can later be collected by the player and add to the player's score. 
 
