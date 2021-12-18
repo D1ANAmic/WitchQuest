@@ -1,43 +1,21 @@
-import Button from "./Button.js"
 import MainScene from "./MainScene.js";
+import DialogScene from "./DialogScene.js";
 
 /**
  * class for start screen
  */
-export default class GameOverSceneScene extends Phaser.Scene {
+export default class GameOverSceneScene extends DialogScene {
     constructor() {
-        super("GameOverScene");
-    }
 
-    /**
-     * Phaser class for preloading game assets
-     */
-    preload() {
+        const SCENE_NAME = "GameOverScene";
+        const BG_PATH = "assets/images/game_over_bg.png";
+        const IMAGE_KEY = "witch_single_dead";
+        const IMAGE_PATH = "assets/images/witch_single_dead.png";
+        const LOGO_TEXT = "GAME OVER";
+        const DESC_TEXT = "Oh no, they got you!";
+        const BUTTON_TEXT = "Play again";
 
-        // load background
-        this.load.image('bg', 'assets/images/game_over_bg.png');
-
-        // load witch atlas
-        this.load.image('witch_single_dead', 'assets/images/witch_single_dead.png', );
-
-    }
-
-    /**
-     * Phaser class for creating game elements
-     */
-    create() {
-
-        const bg = this.add.image(0, 0, 'bg');
-        bg.setOrigin(0, 0);
-
-        const style = { fontSize: '60px', fill: '#923f28ff' }
-        const logo = this.add.text(this.game.config.width/2,200, 'GAME OVER', style);
-        logo.setOrigin(.5 ,.5);
-
-        const witchImg = this.add.sprite (this.game.config.width/2, this.game.config.height/2, 'witch_single_dead');
-
-        const button = new Button(this.game.config.width/2, 700, 'Play again', this, () => this.clickButton());
-
+        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, LOGO_TEXT, DESC_TEXT, BUTTON_TEXT);
     }
 
     clickButton(){

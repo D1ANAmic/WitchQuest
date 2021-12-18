@@ -5,7 +5,7 @@ import HealthLabel from "./HealthLabel.js";
 
 
 let score = 0;
-let level = 3;
+let level = 1;
 
 /**
  * class for main game scene
@@ -127,14 +127,15 @@ export default class MainScene extends Phaser.Scene {
 
         if (this.allEnemiesDead()){
 
-
             if (level === 3){
-                MainScene.resetGame();
+
                 this.scene.switch('FinishScene');
+            } else {
+
+                this.scene.restart(this.scoreLabel.score);
+                score = this.scoreLabel.score
+                level++;
             }
-            this.scene.restart(this.scoreLabel.score);
-            score = this.scoreLabel.score
-            level ++;
 
         };
 

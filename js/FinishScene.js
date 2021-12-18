@@ -1,51 +1,35 @@
-import Button from "./Button.js"
+import DialogScene from "./DialogScene.js";
+import MainScene from "./MainScene.js";
 
 /**
  * class for start screen
  */
-export default class FinishScene extends Phaser.Scene {
+export default class FinishScene extends DialogScene {
     constructor() {
-        super("FinishScene");
-    }
+        const SCENE_NAME = "FinishScene";
+        const BG_PATH = "assets/images/start_bg.png";
+        const IMAGE_KEY = "witch_single";
+        const IMAGE_PATH = "assets/images/witch_single.png";
+        const LOGO_TEXT = "You did it!";
+        const DESC_TEXT = "Great, you finished the game. New levels are coming soon.";
+        const BUTTON_TEXT = "Play again";
 
-    /**
-     * Phaser class for preloading game assets
-     */
-    preload() {
-
-
-        //load background
-        this.load.image('bg', 'assets/images/start_bg.png');
-
-        //load witch atlas
-        this.load.image('witch_single', 'assets/images/witch_single.png', );
-
-
-
-    }
-
-    /**
-     * Phaser class for creating game elements
-     */
-    create() {
-
-
-
-        const bg = this.add.image(0, 0, 'bg');
-        bg.setOrigin(0, 0);
-
-        const style = { fontSize: '60px', fill: '#fff' }
-        const logo = this.add.text(this.game.config.width/2,200, 'You did it!', style);
-        logo.setOrigin(.5 ,.5);
-
-        const witchImg = this.add.sprite (this.game.config.width/2, this.game.config.height/2, 'witch_single');
-
-        const button = new Button(this.game.config.width/2, 700, 'Play again', this, () => this.clickButton());
-
+        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, LOGO_TEXT, DESC_TEXT, BUTTON_TEXT);
     }
 
     clickButton(){
-        this.scene.switch('StartScene');
+        const mainScene = this.scene.get('MainScene')
+        const startScene = this.scene.get('StartScene')
+
+        // clear enemy array
+        mainScene.enemies = [];
+
+        // restart MainScene
+        mainScene.scene.restart();
+        MainScene.resetGame();
+
+        // switch back to startScene and then MainScene
+        this.scene.switch(startScene);
     }
 
 

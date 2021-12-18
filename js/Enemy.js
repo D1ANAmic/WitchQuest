@@ -20,10 +20,10 @@ export default class Enemy extends Sprite{
     constructor({scene, enemy, scoreLabel}) {
 
         //get drop items based on enemy object properties
-        let drops = JSON.parse(enemy.properties.find(p=>p.name=='drops').value);
+        let drops = JSON.parse(enemy.properties.find(property=>property.name=='drops').value);
 
         //get enemy health points based on enemy object properties
-        let health = enemy.properties.find(p=>p.name=='health').value;
+        let health = enemy.properties.find(property=>property.name=='health').value;
 
         super({scene, x:enemy.x,y:enemy.y, texture:'enemies', frame:`${enemy.name}1`,drops, health, name:enemy.name});
 

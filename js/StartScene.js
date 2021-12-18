@@ -1,47 +1,18 @@
-import Button from "./Button.js"
+import DialogScene from "./DialogScene.js";
 
-/**
- * class for start screen
- */
-export default class StartScene extends Phaser.Scene {
+
+export default class StartScene extends DialogScene {
     constructor() {
-        super("StartScene");
-    }
 
-    /**
-     * Phaser class for preloading game assets
-     */
-    preload() {
+        const SCENE_NAME = "StartScene";
+        const BG_PATH = "assets/images/start_bg.png";
+        const IMAGE_KEY = "witch_single";
+        const IMAGE_PATH = "assets/images/witch_single.png";
+        const LOGO_TEXT = "WitchQuest";
+        const DESC_TEXT = "Use the arrow keys to move around and space to hit";
+        const BUTTON_TEXT = "Start Game";
 
-
-        //load background
-        this.load.image('bg', 'assets/images/start_bg.png');
-
-        //load witch atlas
-        this.load.image('witch_single', 'assets/images/witch_single.png', );
-
-
-
-    }
-
-    /**
-     * Phaser class for creating game elements
-     */
-    create() {
-
-
-
-        const bg = this.add.image(0, 0, 'bg');
-        bg.setOrigin(0, 0);
-
-        const style = { fontSize: '60px', fill: '#fff' }
-        const logo = this.add.text(this.game.config.width/2,200, 'WitchQuest', style);
-        logo.setOrigin(.5 ,.5);
-
-        const witchImg = this.add.sprite (this.game.config.width/2, this.game.config.height/2, 'witch_single');
-
-        const button = new Button(this.game.config.width/2, 700, 'Start Game', this, () => this.clickButton());
-
+        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, LOGO_TEXT, DESC_TEXT, BUTTON_TEXT);
     }
 
     clickButton(){
