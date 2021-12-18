@@ -34,17 +34,17 @@ export default class MainScene extends Phaser.Scene {
     }
 
 
-    getLevelAssets(){
+    getLevelAssets() {
 
     }
 
     /**
      * Phaser class for creating game elements
      */
-    create(){
+    create() {
 
         //create map
-        this.map = this.make.tilemap({key: `level${level}`});
+        this.map = this.make.tilemap({ key: `level${level}` });
 
         //tileMargin and tileSpacing values set due to extruded tile image
         const tileset = this.map.addTilesetImage('tiles-64_edited', 'tiles', 64, 64, 1, 2)
@@ -81,19 +81,19 @@ export default class MainScene extends Phaser.Scene {
 
 
         //set map colliders based on property in map.json
-        collider_layer.setCollisionByProperty({collides:true});
+        collider_layer.setCollisionByProperty({ collides: true });
         this.matter.world.convertTilemapLayer(collider_layer);
 
         //set colliders for trees and rocks
-        decoration_layer.setCollisionByProperty({collides:true});
+        decoration_layer.setCollisionByProperty({ collides: true });
         this.matter.world.convertTilemapLayer(decoration_layer);
 
         //create enemies based on layer and push them into array
         const enemies = this.map.getObjectLayer('Enemies');
-        enemies.objects.forEach(enemy => this.enemies.push(new Enemy({scene:this, enemy, scoreLabel:this.scoreLabel})));
+        enemies.objects.forEach(enemy => this.enemies.push(new Enemy({ scene: this, enemy, scoreLabel: this.scoreLabel })));
 
         //create player character
-        this.player = new Player({scene:this, x:200, y:200, texture:'witch', frame:'witch_idle1', healthLabel:this.healthLabel});
+        this.player = new Player({ scene: this, x: 200, y: 200, texture: 'witch', frame: 'witch_idle1', healthLabel: this.healthLabel });
 
         // define player control keys
         this.player.inputKeys = this.input.keyboard.addKeys({
@@ -112,7 +112,7 @@ export default class MainScene extends Phaser.Scene {
         // set latency to camera movement for more realistic effect
         camera.setLerp(.1, .1);
         //avoid camera following player on map borders
-        camera.setBounds(0,0, this.game.config.width, this.game.config.height)
+        camera.setBounds(0, 0, this.game.config.width, this.game.config.height)
 
     }
 
@@ -120,14 +120,14 @@ export default class MainScene extends Phaser.Scene {
     /**
      * Phaser class for updating scene, gets called in a loop
      */
-    update(){
+    update() {
 
         this.player.update();
         this.enemies.forEach(enemy => enemy.update());
 
-        if (this.allEnemiesDead()){
+        if (this.allEnemiesDead()) {
 
-            if (level === 3){
+            if (level === 3) {
 
                 this.scene.switch('FinishScene');
             } else {
@@ -141,14 +141,14 @@ export default class MainScene extends Phaser.Scene {
 
     }
 
-    allEnemiesDead(){
+    allEnemiesDead() {
         const allEnemiesDead = (currentValue) => !currentValue.active;
 
         return this.enemies.every(allEnemiesDead);
 
     }
 
-    static resetGame(){
+    static resetGame() {
         score = 0;
         level = 1;
     }

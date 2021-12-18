@@ -14,30 +14,30 @@ import FinishScene from "./FinishScene.js";
 /// <reference path="defs/SpinePlugin.d.ts" />
 
 const config = {
-    width:1280,
-    height:896,
+    width: 1280,
+    height: 896,
     backgroundColor: '#bbb',
     type: Phaser.AUTO,
     // id of parent div
     parent: 'witch-quest',
-    scene:[StartScene, MainScene, GameOverScene, FinishScene],
+    scene: [StartScene, MainScene, GameOverScene, FinishScene],
     // scale game container
     // scale:{
-        // zoom:.7,
+    // zoom:.7,
     // },
     physics: {
         // use Matter.js Physics engine instead of default
         default: 'matter',
         matter: {
-            debug:false,
+            debug: false,
             // zero gravity due to top down game not platformer
-            gravity:{y:0},
+            gravity: { y: 0 },
         }
     },
     plugins: {
-        scene:[
+        scene: [
             {   //plugin for easier collision detection with Matter.js
-                plugin:PhaserMatterCollisionPlugin.default,
+                plugin: PhaserMatterCollisionPlugin.default,
                 key: 'matterCollision',
                 mapping: 'matterCollision'
             }

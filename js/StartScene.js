@@ -1,6 +1,8 @@
 import DialogScene from "./DialogScene.js";
 
-
+/**
+ * class for start scene
+ */
 export default class StartScene extends DialogScene {
     constructor() {
 
@@ -8,14 +10,14 @@ export default class StartScene extends DialogScene {
         const BG_PATH = "assets/images/start_bg.png";
         const IMAGE_KEY = "witch_single";
         const IMAGE_PATH = "assets/images/witch_single.png";
-        const LOGO_TEXT = "WitchQuest";
-        const DESC_TEXT = "Use the arrow keys to move around and space to hit";
+        const TITLE_TEXT = "WitchQuest";
+        const DESC_TEXT = "Destroy all your enemies! \n\nUse the arrow keys to move around and space to hit.";
         const BUTTON_TEXT = "Start Game";
 
-        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, LOGO_TEXT, DESC_TEXT, BUTTON_TEXT);
+        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, TITLE_TEXT, DESC_TEXT, BUTTON_TEXT);
     }
 
-    clickButton(){
+    clickButton() {
         this.scene.switch('MainScene');
     }
 

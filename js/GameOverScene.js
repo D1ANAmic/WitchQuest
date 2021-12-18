@@ -2,7 +2,7 @@ import MainScene from "./MainScene.js";
 import DialogScene from "./DialogScene.js";
 
 /**
- * class for start screen
+ * class for game over scene
  */
 export default class GameOverSceneScene extends DialogScene {
     constructor() {
@@ -11,14 +11,14 @@ export default class GameOverSceneScene extends DialogScene {
         const BG_PATH = "assets/images/game_over_bg.png";
         const IMAGE_KEY = "witch_single_dead";
         const IMAGE_PATH = "assets/images/witch_single_dead.png";
-        const LOGO_TEXT = "GAME OVER";
+        const TITLE_TEXT = "GAME OVER";
         const DESC_TEXT = "Oh no, they got you!";
         const BUTTON_TEXT = "Play again";
 
-        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, LOGO_TEXT, DESC_TEXT, BUTTON_TEXT);
+        super(SCENE_NAME, BG_PATH, IMAGE_KEY, IMAGE_PATH, TITLE_TEXT, DESC_TEXT, BUTTON_TEXT);
     }
 
-    clickButton(){
+    clickButton() {
         const mainScene = this.scene.get('MainScene')
         const startScene = this.scene.get('StartScene')
 

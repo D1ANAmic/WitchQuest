@@ -1,1900 +1,1964 @@
-{ "compressionlevel":-1,
- "height":14,
- "infinite":false,
- "layers":[
-        {
-         "compression":"",
-         "data":"RAAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAEUAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAABMAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAATQAAAA==",
-         "encoding":"base64",
-         "height":14,
-         "id":16,
-         "name":"Colliders",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"twAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAABaAAAAWgAAAFoAAAC3AAAAtwAAALcAAABaAAAAtwAAAGIAAABiAAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAWgAAAFoAAABiAAAAYgAAAFoAAAC3AAAAtwAAAFoAAAC3AAAAtwAAALcAAABiAAAAYgAAAGIAAABiAAAAtgAAALYAAAC2AAAAWgAAAFoAAABaAAAAYgAAAGIAAABiAAAAWgAAALcAAAC3AAAAWgAAAFoAAAC3AAAAtwAAAFoAAABaAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAALcAAABiAAAAtwAAAGIAAABaAAAAtwAAALcAAAC3AAAAWgAAAFoAAABaAAAAWgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAYgAAAFoAAABaAAAAtwAAALcAAABaAAAAtwAAAFoAAABaAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAABiAAAAtwAAAFoAAAC3AAAAtwAAAFoAAAC3AAAAtwAAAFoAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALcAAAC3AAAAWgAAAGIAAAC3AAAAWgAAAFoAAAC3AAAAWgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAALcAAABaAAAAYgAAALcAAAC3AAAAWgAAAFoAAABiAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC3AAAAtwAAAFoAAABiAAAAtwAAALcAAAC3AAAAWgAAAGIAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAYgAAALcAAABaAAAAtwAAAGIAAAC3AAAAtwAAALcAAAC3AAAAYgAAAFoAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAABiAAAAWgAAAFoAAAC3AAAAYgAAALcAAABiAAAAtwAAALcAAABiAAAAYgAAAGIAAABiAAAAYgAAALcAAAC2AAAAtgAAALYAAAC2AAAAtgAAAGIAAABiAAAAtwAAALcAAABiAAAAtwAAALcAAABiAAAAYgAAALcAAABaAAAAWgAAALcAAAC3AAAAtwAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAAGIAAABiAAAAYgAAALcAAAC3AAAAtwAAALcAAAC3AAAAYgAAAGIAAAC3AAAAtwAAALcAAAC3AAAAtwAAAGIAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAABiAAAAYgAAAA==",
-         "encoding":"base64",
-         "height":14,
-         "id":7,
-         "name":"Ground",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":false,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAcgEAAHIBAAAAAAAAAAAAAAAAAAAAAAAAdQEAAHYBAAB2AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB6AQAAegEAAAAAAAAAAAAAdQEAAHYBAAByAQAAAAAAAAAAAAB2AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAByAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAdgEAAHIBAAB2AQAAcgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAdgEAAAAAAAB9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH0BAAB+AQAAAAAAAH0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAegEAAAAAAAB1AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdgEAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAQAAcgEAAAAAAAAAAAAAAAAAAH0BAAB+AQAAfgEAAHoBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQEAAHoBAAB6AQAAfQEAAHoBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-         "encoding":"base64",
-         "height":14,
-         "id":10,
-         "name":"Edges1",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":false,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEBAABxAQAAAAAAAAAAAAAAAAAAAAAAAHkBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAAAAAAAAAAAAAAAAAAAAAAHEBAAB9AQAAAAAAAAAAAAB1AQBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAHUBAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHYBAAAAAAAAdQEAAHYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdgEAAAAAAAB9AQAAegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAHkBAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAeQEAAHkBAAB5AQAAAAAAAAAAAAAAAAAAAAAAAHYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAAAAAAAAAAAAAAAAAAAAAAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB5AQAAAAAAAHkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-         "encoding":"base64",
-         "height":14,
-         "id":11,
-         "name":"Edges2",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":false,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACGAAAAAAAAABYAAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAAAAAAAGAAAAEEAAAAAAAAAAAAAAAAAAAC9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiQAAAAAAAAAAAAAAvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+AAAAAAAAABcAAAAAAAAAswAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyAAAAswAAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAACGAAAAAAAAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAIYAAAAAAAAAAAAAAAAAAAC7AAAAAAAAABgAAAAAAAAAAAAAALoAAAAAAAAAAAAAAIYAAAAAAAAAvAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiQAAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAAAAAACKAAAAAAAAAEEAAAAAAAAAAAAAAL0AAAAAAAAAAAAAALsAAAAAAAAAAAAAAL4AAABBAAAAAAAAAAAAAAC0AAAAsgAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAAAAAAAAAAACzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAALoAAAAAAAAAAAAAAAAAAAAAAAAAswAAALIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-         "encoding":"base64",
-         "height":14,
-         "id":12,
-         "name":"Decoration",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":false,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":15,
-         "name":"Enemies",
-         "objects":[
-                {
-                 "gid":27,
-                 "height":64,
-                 "id":96,
-                 "name":"skeleton",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[194, 194]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":20
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":609.455042139085,
-                 "y":511.490197355049
-                }, 
-                {
-                 "gid":27,
-                 "height":64,
-                 "id":128,
-                 "name":"skeleton",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[194, 194]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":20
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":519.462800090986,
-                 "y":464.94248595086
-                }, 
-                {
-                 "gid":27,
-                 "height":64,
-                 "id":108,
-                 "name":"skeleton",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[194, 194]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":20
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":603.811880114197,
-                 "y":396.46623451231
-                }, 
-                {
-                 "gid":27,
-                 "height":64,
-                 "id":109,
-                 "name":"skeleton",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[194, 194]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":20
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":691.429961325331,
-                 "y":472.122067999102
-                }, 
-                {
-                 "gid":14,
-                 "height":64,
-                 "id":110,
-                 "name":"ghost",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[202, 202]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":5
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":130.180601073833,
-                 "y":437.079653353437
-                }, 
-                {
-                 "gid":14,
-                 "height":64,
-                 "id":111,
-                 "name":"ghost",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[202, 202]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":5
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":962.328588247009,
-                 "y":118.018257923722
-                }, 
-                {
-                 "gid":14,
-                 "height":64,
-                 "id":126,
-                 "name":"ghost",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[202, 202]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":5
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":67.0609389064352,
-                 "y":763.479856061814
-                }, 
-                {
-                 "gid":14,
-                 "height":64,
-                 "id":127,
-                 "name":"ghost",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[202, 202]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":5
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1151.62261462405,
-                 "y":510.570624099052
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":116,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":417.961210240497,
-                 "y":293.833979829325
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":119,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":384.44918541505,
-                 "y":574.6718386346
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":124,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":541.44918541505,
-                 "y":625.6718386346
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":125,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":714.44918541505,
-                 "y":625.6718386346
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":120,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":331.072148952677,
-                 "y":414.858029480217
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":117,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":573.120248254461,
-                 "y":258.147401086113
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":118,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":573.120248254461,
-                 "y":258.147401086113
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":121,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":730.656322730799,
-                 "y":276.766485647789
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":122,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":843.025601241272,
-                 "y":397.171450737006
-                }, 
-                {
-                 "gid":221,
-                 "height":64,
-                 "id":123,
-                 "name":"bear",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[195, 195]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":12
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":836.545384018619,
-                 "y":538.985259891389
-                }, 
-                {
-                 "gid":16,
-                 "height":84,
-                 "id":130,
-                 "name":"devil",
-                 "properties":[
-                        {
-                         "name":"drops",
-                         "type":"string",
-                         "value":"[194, 194]"
-                        }, 
-                        {
-                         "name":"health",
-                         "type":"int",
-                         "value":30
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":84,
-                 "x":605.703646237393,
-                 "y":454.032583397983
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }],
- "nextlayerid":19,
- "nextobjectid":131,
- "orientation":"orthogonal",
- "renderorder":"right-down",
- "tiledversion":"1.7.2",
- "tileheight":64,
- "tilesets":[
-        {
-         "columns":8,
-         "firstgid":1,
-         "image":"..\/..\/..\/assets\/DoodleRogue\/tiles-64_edited.png",
-         "imageheight":1664,
-         "imagewidth":512,
-         "margin":0,
-         "name":"tiles-64_edited",
-         "spacing":0,
-         "tilecount":208,
-         "tileheight":64,
-         "tiles":[
-                {
-                 "id":64,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+{
+       "compressionlevel": -1,
+       "height": 14,
+       "infinite": false,
+       "layers": [
+              {
+                     "compression": "",
+                     "data": "RAAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAEUAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAADBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAygAAAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAAAAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMoAAABMAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAAyQAAAMkAAADJAAAATQAAAA==",
+                     "encoding": "base64",
+                     "height": 14,
+                     "id": 16,
+                     "name": "Colliders",
+                     "opacity": 1,
+                     "type": "tilelayer",
+                     "visible": true,
+                     "width": 20,
+                     "x": 0,
+                     "y": 0
+              },
+              {
+                     "compression": "",
+                     "data": "twAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAABaAAAAWgAAAFoAAAC3AAAAtwAAALcAAABaAAAAtwAAAGIAAABiAAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAAC3AAAAWgAAAFoAAABiAAAAYgAAAFoAAAC3AAAAtwAAAFoAAAC3AAAAtwAAALcAAABiAAAAYgAAAGIAAABiAAAAtgAAALYAAAC2AAAAWgAAAFoAAABaAAAAYgAAAGIAAABiAAAAWgAAALcAAAC3AAAAWgAAAFoAAAC3AAAAtwAAAFoAAABaAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAALcAAABiAAAAtwAAAGIAAABaAAAAtwAAALcAAAC3AAAAWgAAAFoAAABaAAAAWgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAYgAAAFoAAABaAAAAtwAAALcAAABaAAAAtwAAAFoAAABaAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAABiAAAAtwAAAFoAAAC3AAAAtwAAAFoAAAC3AAAAtwAAAFoAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALcAAAC3AAAAWgAAAGIAAAC3AAAAWgAAAFoAAAC3AAAAWgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAALcAAABaAAAAYgAAALcAAAC3AAAAWgAAAFoAAABiAAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC3AAAAtwAAAFoAAABiAAAAtwAAALcAAAC3AAAAWgAAAGIAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAYgAAALcAAABaAAAAtwAAAGIAAAC3AAAAtwAAALcAAAC3AAAAYgAAAFoAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAAC2AAAAtgAAALYAAABiAAAAWgAAAFoAAAC3AAAAYgAAALcAAABiAAAAtwAAALcAAABiAAAAYgAAAGIAAABiAAAAYgAAALcAAAC2AAAAtgAAALYAAAC2AAAAtgAAAGIAAABiAAAAtwAAALcAAABiAAAAtwAAALcAAABiAAAAYgAAALcAAABaAAAAWgAAALcAAAC3AAAAtwAAALYAAAC2AAAAtgAAALYAAAC2AAAAtwAAAGIAAABiAAAAYgAAALcAAAC3AAAAtwAAALcAAAC3AAAAYgAAAGIAAAC3AAAAtwAAALcAAAC3AAAAtwAAAGIAAAC3AAAAtwAAALcAAAC3AAAAtwAAALcAAABiAAAAYgAAAA==",
+                     "encoding": "base64",
+                     "height": 14,
+                     "id": 7,
+                     "name": "Ground",
+                     "opacity": 1,
+                     "type": "tilelayer",
+                     "visible": false,
+                     "width": 20,
+                     "x": 0,
+                     "y": 0
+              },
+              {
+                     "compression": "",
+                     "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAcgEAAHIBAAAAAAAAAAAAAAAAAAAAAAAAdQEAAHYBAAB2AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB6AQAAegEAAAAAAAAAAAAAdQEAAHYBAAByAQAAAAAAAAAAAAB2AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAByAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAdgEAAHIBAAB2AQAAcgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAdgEAAAAAAAB9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH0BAAB+AQAAAAAAAH0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAegEAAAAAAAB1AQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdgEAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAQAAcgEAAAAAAAAAAAAAAAAAAH0BAAB+AQAAfgEAAHoBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAHoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQEAAHoBAAB6AQAAfQEAAHoBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                     "encoding": "base64",
+                     "height": 14,
+                     "id": 10,
+                     "name": "Edges1",
+                     "opacity": 1,
+                     "type": "tilelayer",
+                     "visible": false,
+                     "width": 20,
+                     "x": 0,
+                     "y": 0
+              },
+              {
+                     "compression": "",
+                     "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAQAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEBAABxAQAAAAAAAAAAAAAAAAAAAAAAAHkBAAB+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAAAAAAAAAAAAAAAAAAAAAAHEBAAB9AQAAAAAAAAAAAAB1AQBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAHUBAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHYBAAAAAAAAdQEAAHYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdgEAAAAAAAB9AQAAegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAHkBAAB6AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5AQAAeQEAAHkBAAB5AQAAAAAAAAAAAAAAAAAAAAAAAHYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHUBAAAAAAAAAAAAAAAAAAAAAAAAdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkBAAB5AQAAAAAAAHkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                     "encoding": "base64",
+                     "height": 14,
+                     "id": 11,
+                     "name": "Edges2",
+                     "opacity": 1,
+                     "type": "tilelayer",
+                     "visible": false,
+                     "width": 20,
+                     "x": 0,
+                     "y": 0
+              },
+              {
+                     "compression": "",
+                     "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACGAAAAAAAAABYAAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAAAAAAAGAAAAEEAAAAAAAAAAAAAAAAAAAC9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiQAAAAAAAAAAAAAAvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+AAAAAAAAABcAAAAAAAAAswAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyAAAAswAAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAACGAAAAAAAAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAIYAAAAAAAAAAAAAAAAAAAC7AAAAAAAAABgAAAAAAAAAAAAAALoAAAAAAAAAAAAAAIYAAAAAAAAAvAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiQAAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAAAAAACKAAAAAAAAAEEAAAAAAAAAAAAAAL0AAAAAAAAAAAAAALsAAAAAAAAAAAAAAL4AAABBAAAAAAAAAAAAAAC0AAAAsgAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAAAAAAAAAAACzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAALoAAAAAAAAAAAAAAAAAAAAAAAAAswAAALIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                     "encoding": "base64",
+                     "height": 14,
+                     "id": 12,
+                     "name": "Decoration",
+                     "opacity": 1,
+                     "type": "tilelayer",
+                     "visible": false,
+                     "width": 20,
+                     "x": 0,
+                     "y": 0
+              },
+              {
+                     "draworder": "topdown",
+                     "id": 15,
+                     "name": "Enemies",
+                     "objects": [
                             {
-                             "height":32.8757894736842,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":38.9389473684211,
-                             "x":15.0905263157895,
-                             "y":24.6568421052632
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":67,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 27,
+                                   "height": 64,
+                                   "id": 96,
+                                   "name": "skeleton",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[194, 194]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 20
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 609.455042139085,
+                                   "y": 511.490197355049
+                            },
                             {
-                             "height":1,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":0
-                            }, 
+                                   "gid": 27,
+                                   "height": 64,
+                                   "id": 128,
+                                   "name": "skeleton",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[194, 194]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 20
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 519.462800090986,
+                                   "y": 464.94248595086
+                            },
                             {
-                             "height":64,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":0,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":68,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 27,
+                                   "height": 64,
+                                   "id": 108,
+                                   "name": "skeleton",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[194, 194]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 20
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 603.811880114197,
+                                   "y": 396.46623451231
+                            },
                             {
-                             "height":1,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":0
-                            }, 
+                                   "gid": 27,
+                                   "height": 64,
+                                   "id": 109,
+                                   "name": "skeleton",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[194, 194]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 20
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 691.429961325331,
+                                   "y": 472.122067999102
+                            },
                             {
-                             "height":64,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":63,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":75,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 14,
+                                   "height": 64,
+                                   "id": 110,
+                                   "name": "ghost",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[202, 202]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 5
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 130.180601073833,
+                                   "y": 437.079653353437
+                            },
                             {
-                             "height":1,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":63
-                            }, 
+                                   "gid": 14,
+                                   "height": 64,
+                                   "id": 111,
+                                   "name": "ghost",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[202, 202]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 5
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 962.328588247009,
+                                   "y": 118.018257923722
+                            },
                             {
-                             "height":64,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":0,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":76,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 14,
+                                   "height": 64,
+                                   "id": 126,
+                                   "name": "ghost",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[202, 202]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 5
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 67.0609389064352,
+                                   "y": 763.479856061814
+                            },
                             {
-                             "height":64,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":63,
-                             "y":0
-                            }, 
+                                   "gid": 14,
+                                   "height": 64,
+                                   "id": 127,
+                                   "name": "ghost",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[202, 202]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 5
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 1151.62261462405,
+                                   "y": 510.570624099052
+                            },
                             {
-                             "height":1,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":63
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":80,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 116,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 417.961210240497,
+                                   "y": 293.833979829325
+                            },
                             {
-                             "ellipse":true,
-                             "height":42,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":20,
-                             "x":20,
-                             "y":6
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tree"
-                }, 
-                {
-                 "id":81,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 119,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 384.44918541505,
+                                   "y": 574.6718386346
+                            },
                             {
-                             "ellipse":true,
-                             "height":42,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":20,
-                             "x":22,
-                             "y":6
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tree"
-                }, 
-                {
-                 "id":82,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 124,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 541.44918541505,
+                                   "y": 625.6718386346
+                            },
                             {
-                             "ellipse":true,
-                             "height":42,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":20,
-                             "x":21.1242105263158,
-                             "y":11.7410526315789
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":83,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 125,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 714.44918541505,
+                                   "y": 625.6718386346
+                            },
                             {
-                             "ellipse":true,
-                             "height":27.8526315789474,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":18.2484210526316,
-                             "x":23.818947368421,
-                             "y":24.1368421052632
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":84,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 120,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 331.072148952677,
+                                   "y": 414.858029480217
+                            },
                             {
-                             "ellipse":true,
-                             "height":27,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":27,
-                             "x":18,
-                             "y":11
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tree"
-                }, 
-                {
-                 "id":85,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 117,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 573.120248254461,
+                                   "y": 258.147401086113
+                            },
                             {
-                             "ellipse":true,
-                             "height":27,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":27,
-                             "x":18,
-                             "y":12
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tree"
-                }, 
-                {
-                 "id":86,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 118,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 573.120248254461,
+                                   "y": 258.147401086113
+                            },
                             {
-                             "height":29,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":31,
-                             "x":15.5,
-                             "y":16.5
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"rock"
-                }, 
-                {
-                 "id":87,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 121,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 730.656322730799,
+                                   "y": 276.766485647789
+                            },
                             {
-                             "height":29,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":31,
-                             "x":15.5,
-                             "y":19.5
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"rock"
-                }, 
-                {
-                 "id":100,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 122,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 843.025601241272,
+                                   "y": 397.171450737006
+                            },
                             {
-                             "height":58.4757,
-                             "id":3,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":58.88,
-                             "x":2.76210526315789,
-                             "y":1.34741315789474
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":101,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "gid": 221,
+                                   "height": 64,
+                                   "id": 123,
+                                   "name": "bear",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[195, 195]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 12
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 64,
+                                   "x": 836.545384018619,
+                                   "y": 538.985259891389
+                            },
                             {
-                             "height":58.4757,
-                             "id":3,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":58.88,
-                             "x":3.03157894736841,
-                             "y":2.82951842105263
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":102,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "gid": 16,
+                                   "height": 84,
+                                   "id": 130,
+                                   "name": "devil",
+                                   "properties": [
+                                          {
+                                                 "name": "drops",
+                                                 "type": "string",
+                                                 "value": "[194, 194]"
+                                          },
+                                          {
+                                                 "name": "health",
+                                                 "type": "int",
+                                                 "value": 30
+                                          }
+                                   ],
+                                   "rotation": 0,
+                                   "type": "",
+                                   "visible": true,
+                                   "width": 84,
+                                   "x": 605.703646237393,
+                                   "y": 454.032583397983
+                            }
+                     ],
+                     "opacity": 1,
+                     "type": "objectgroup",
+                     "visible": true,
+                     "x": 0,
+                     "y": 0
+              }
+       ],
+       "nextlayerid": 19,
+       "nextobjectid": 131,
+       "orientation": "orthogonal",
+       "renderorder": "right-down",
+       "tiledversion": "1.7.2",
+       "tileheight": 64,
+       "tilesets": [
+              {
+                     "columns": 8,
+                     "firstgid": 1,
+                     "image": "..\/..\/..\/assets\/DoodleRogue\/tiles-64_edited.png",
+                     "imageheight": 1664,
+                     "imagewidth": 512,
+                     "margin": 0,
+                     "name": "tiles-64_edited",
+                     "spacing": 0,
+                     "tilecount": 208,
+                     "tileheight": 64,
+                     "tiles": [
                             {
-                             "height":58.4757421052632,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":58.8800421052632,
-                             "x":2.62734736842105,
-                             "y":2.69476052631579
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":103,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 64,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 32.8757894736842,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 38.9389473684211,
+                                                        "x": 15.0905263157895,
+                                                        "y": 24.6568421052632
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":59.0146894736842,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":58.3410947368421,
-                             "x":2.76208421052631,
-                             "y":2.56002368421052
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":120,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 67,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 1,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 },
+                                                 {
+                                                        "height": 64,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "ellipse":true,
-                             "height":31.6252631578947,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":10.8378947368421,
-                             "x":24.2231578947368,
-                             "y":18.7473684210526
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":136,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 68,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 1,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 },
+                                                 {
+                                                        "height": 64,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 63,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "ellipse":true,
-                             "height":24.3874,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":37.0526,
-                             "x":14.4842263157895,
-                             "y":30.2484052631579
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":137,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 75,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 1,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 63
+                                                 },
+                                                 {
+                                                        "height": 64,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "ellipse":true,
-                             "height":24.3873684210526,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":37.0526315789474,
-                             "x":14.5515789473684,
-                             "y":29.1031578947368
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":138,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 76,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 64,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 63,
+                                                        "y": 0
+                                                 },
+                                                 {
+                                                        "height": 1,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 63
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "ellipse":true,
-                             "height":42,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":20,
-                             "x":26.6484210526316,
-                             "y":12.9536842105263
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":139,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 80,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 42,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 20,
+                                                        "x": 20,
+                                                        "y": 6
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "tree"
+                            },
                             {
-                             "ellipse":true,
-                             "height":34.7242105263158,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":16.0926315789474,
-                             "x":22.8757894736842,
-                             "y":22.2505263157895
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":140,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 81,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 42,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 20,
+                                                        "x": 22,
+                                                        "y": 6
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "tree"
+                            },
                             {
-                             "ellipse":true,
-                             "height":27,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":27,
-                             "x":17.5,
-                             "y":12.5
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":141,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 82,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 42,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 20,
+                                                        "x": 21.1242105263158,
+                                                        "y": 11.7410526315789
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "ellipse":true,
-                             "height":27,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":27,
-                             "x":17.5,
-                             "y":13.5
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":142,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 83,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 27.8526315789474,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 18.2484210526316,
+                                                        "x": 23.818947368421,
+                                                        "y": 24.1368421052632
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":29,
-                             "id":2,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":31,
-                             "x":17,
-                             "y":17
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"rock"
-                }, 
-                {
-                 "id":143,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 84,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 27,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 27,
+                                                        "x": 18,
+                                                        "y": 11
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "tree"
+                            },
                             {
-                             "height":29,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":31,
-                             "x":16.5,
-                             "y":17.5
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"rock"
-                }, 
-                {
-                 "id":146,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 85,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 27,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 27,
+                                                        "x": 18,
+                                                        "y": 12
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "tree"
+                            },
                             {
-                             "ellipse":true,
-                             "height":40.0694736842105,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":40.0694736842105,
-                             "x":12.7736842105263,
-                             "y":11.8305263157895
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":147,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 86,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 29,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 31,
+                                                        "x": 15.5,
+                                                        "y": 16.5
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "rock"
+                            },
                             {
-                             "ellipse":true,
-                             "height":40.0695,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":40.0695,
-                             "x":12.9757763157895,
-                             "y":7.45156578947368
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":156,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 87,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 29,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 31,
+                                                        "x": 15.5,
+                                                        "y": 19.5
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "rock"
+                            },
                             {
-                             "height":55.781052631579,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":53.76,
-                             "x":4.98526315789474,
-                             "y":3.6378947368421
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":157,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 100,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 58.4757,
+                                                        "id": 3,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 58.88,
+                                                        "x": 2.76210526315789,
+                                                        "y": 1.34741315789474
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":56.0504789473684,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":56.8589894736842,
-                             "x":3.1662947368421,
-                             "y":3.63791842105263
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":158,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 101,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 58.4757,
+                                                        "id": 3,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 58.88,
+                                                        "x": 3.03157894736841,
+                                                        "y": 2.82951842105263
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":57.6673210526316,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":57.3979368421053,
-                             "x":3.43576842105262,
-                             "y":3.50318157894737
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":159,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 102,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 58.4757421052632,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 58.8800421052632,
+                                                        "x": 2.62734736842105,
+                                                        "y": 2.69476052631579
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":58.7452157894737,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":58.0716210526316,
-                             "x":3.1662947368421,
-                             "y":2.82949736842105
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":192,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 103,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 59.0146894736842,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 58.3410947368421,
+                                                        "x": 2.76208421052631,
+                                                        "y": 2.56002368421052
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":64,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":0,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":193,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 120,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 31.6252631578947,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 10.8378947368421,
+                                                        "x": 24.2231578947368,
+                                                        "y": 18.7473684210526
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":1,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":196,
-                 "type":"appletree"
-                }, 
-                {
-                 "id":200,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 136,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 24.3874,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 37.0526,
+                                                        "x": 14.4842263157895,
+                                                        "y": 30.2484052631579
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":1,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":64,
-                             "x":0,
-                             "y":63
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":201,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "name":"",
-                     "objects":[
+                                   "id": 137,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 24.3873684210526,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 37.0526315789474,
+                                                        "x": 14.5515789473684,
+                                                        "y": 29.1031578947368
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":64,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":1,
-                             "x":63,
-                             "y":0
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":64
-        }, 
-        {
-         "columns":8,
-         "firstgid":209,
-         "image":"..\/..\/..\/assets\/DoodleRogue\/tiles-64_edited.png",
-         "imageheight":1664,
-         "imagewidth":512,
-         "margin":0,
-         "name":"tiles-64_edited-offset",
-         "spacing":0,
-         "tilecount":208,
-         "tileheight":64,
-         "tileoffset":
-            {
-             "x":32,
-             "y":32
-            },
-         "tiles":[
-                {
-                 "id":100,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 138,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 42,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 20,
+                                                        "x": 26.6484210526316,
+                                                        "y": 12.9536842105263
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":45.9452631578947,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":49.178947368421,
-                             "x":8.62315789473684,
-                             "y":6.87157894736842
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":101,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 139,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 34.7242105263158,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 16.0926315789474,
+                                                        "x": 22.8757894736842,
+                                                        "y": 22.2505263157895
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":45.9453,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":49.1789,
-                             "x":8.15160263157895,
-                             "y":8.8252447368421
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":102,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 140,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 27,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 27,
+                                                        "x": 17.5,
+                                                        "y": 12.5
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":45.9453,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":49.1789,
-                             "x":7.74739210526316,
-                             "y":8.28629736842105
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":103,
-                 "objectgroup":
-                    {
-                     "draworder":"index",
-                     "id":2,
-                     "name":"",
-                     "objects":[
+                                   "id": 141,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 27,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 27,
+                                                        "x": 17.5,
+                                                        "y": 13.5
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
                             {
-                             "height":45.9453,
-                             "id":1,
-                             "name":"",
-                             "rotation":0,
-                             "type":"",
-                             "visible":true,
-                             "width":49.1789,
-                             "x":7.34318157894737,
-                             "y":7.61261315789473
-                            }],
-                     "opacity":1,
-                     "type":"objectgroup",
-                     "visible":true,
-                     "x":0,
-                     "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":64
-        }],
- "tilewidth":64,
- "type":"map",
- "version":"1.6",
- "width":20
+                                   "id": 142,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 29,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 31,
+                                                        "x": 17,
+                                                        "y": 17
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "rock"
+                            },
+                            {
+                                   "id": 143,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 29,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 31,
+                                                        "x": 16.5,
+                                                        "y": 17.5
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ],
+                                   "type": "rock"
+                            },
+                            {
+                                   "id": 146,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 40.0694736842105,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 40.0694736842105,
+                                                        "x": 12.7736842105263,
+                                                        "y": 11.8305263157895
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 147,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "ellipse": true,
+                                                        "height": 40.0695,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 40.0695,
+                                                        "x": 12.9757763157895,
+                                                        "y": 7.45156578947368
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 156,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 55.781052631579,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 53.76,
+                                                        "x": 4.98526315789474,
+                                                        "y": 3.6378947368421
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 157,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 56.0504789473684,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 56.8589894736842,
+                                                        "x": 3.1662947368421,
+                                                        "y": 3.63791842105263
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 158,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 57.6673210526316,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 57.3979368421053,
+                                                        "x": 3.43576842105262,
+                                                        "y": 3.50318157894737
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 159,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 58.7452157894737,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 58.0716210526316,
+                                                        "x": 3.1662947368421,
+                                                        "y": 2.82949736842105
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 192,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 64,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 193,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 1,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 196,
+                                   "type": "appletree"
+                            },
+                            {
+                                   "id": 200,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 1,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 64,
+                                                        "x": 0,
+                                                        "y": 63
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 201,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 64,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "x": 63,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            }
+                     ],
+                     "tilewidth": 64
+              },
+              {
+                     "columns": 8,
+                     "firstgid": 209,
+                     "image": "..\/..\/..\/assets\/DoodleRogue\/tiles-64_edited.png",
+                     "imageheight": 1664,
+                     "imagewidth": 512,
+                     "margin": 0,
+                     "name": "tiles-64_edited-offset",
+                     "spacing": 0,
+                     "tilecount": 208,
+                     "tileheight": 64,
+                     "tileoffset": {
+                            "x": 32,
+                            "y": 32
+                     },
+                     "tiles": [
+                            {
+                                   "id": 100,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 45.9452631578947,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 49.178947368421,
+                                                        "x": 8.62315789473684,
+                                                        "y": 6.87157894736842
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 101,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 45.9453,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 49.1789,
+                                                        "x": 8.15160263157895,
+                                                        "y": 8.8252447368421
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 102,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 45.9453,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 49.1789,
+                                                        "x": 7.74739210526316,
+                                                        "y": 8.28629736842105
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            },
+                            {
+                                   "id": 103,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "id": 2,
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 45.9453,
+                                                        "id": 1,
+                                                        "name": "",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 49.1789,
+                                                        "x": 7.34318157894737,
+                                                        "y": 7.61261315789473
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   },
+                                   "properties": [
+                                          {
+                                                 "name": "collides",
+                                                 "type": "bool",
+                                                 "value": true
+                                          }
+                                   ]
+                            }
+                     ],
+                     "tilewidth": 64
+              }
+       ],
+       "tilewidth": 64,
+       "type": "map",
+       "version": "1.6",
+       "width": 20
 }

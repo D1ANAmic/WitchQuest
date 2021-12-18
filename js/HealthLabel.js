@@ -9,7 +9,7 @@ export default class HealthLabel extends Phaser.GameObjects.Text {
     }
 
     setHealth(health) {
-        this.health  = health
+        this.health = health
         this.updateHealthText()
     }
 
