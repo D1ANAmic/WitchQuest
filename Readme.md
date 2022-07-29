@@ -2,6 +2,8 @@
 
 A simple single player game for desktop based on Phaser 3.
 
+Check out the game in action: http://public.beuth-hochschule.de/dianaschilling/rma/WitchQuest/
+
 ## Setup
 
 Clone or download the repository. A local web server is required in order to run the game (https://phaser.io/tutorials/getting-started-phaser3/index). It is also possible to start the application directly from an IDE with a built-in web server (e.g. WebStorm). 
